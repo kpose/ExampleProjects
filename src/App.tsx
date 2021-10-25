@@ -34,7 +34,7 @@ const App = () => {
   }
 
   const handleOnRedirect = (data: RedirectParams) => {
-    Alert.alert(data.status);
+    Alert.alert(`Payment ${data.status}`);
   };
 
   return (
@@ -51,7 +51,9 @@ const App = () => {
             tx_ref: generateReference(20),
             authorization: 'FLWPUBK_TEST-8271539878145e737ed3720de9c0e4a4-X',
             customer: {
-              email: 'customer-email@example.com',
+              email: 'user@gmail.com',
+              phonenumber: '080*********',
+              name: 'Jack Bauer',
             },
             amount: 5000,
             currency: 'NGN',
