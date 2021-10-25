@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
 const App = () => {
   return (
     <SafeAreaView>
-      <Text style={styles.headerText}> Accept Payment With Flutterwave!</Text>
+      <Text style={styles.headerText}> Accept Payment With Flutterwave!!</Text>
     </SafeAreaView>
   );
 };
